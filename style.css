@@ -6,7 +6,7 @@
 }
 
 body {
-    margin: 0.5em 19em; /* Appliquez la marge globale au body */
+    margin: 0.5em 19em;
 }
 
 /* ------------------------------     H E A D E R       ---------------------------- */
@@ -40,4 +40,24 @@ nav a {
 }
 
 
-/* ------------------------------     H E A D E R       ---------------------------- */
+/* ------------------------------     B O D Y       ---------------------------- */
+
+.about {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.about img {
+    height: 20em;
+    margin-left: 1em;
+}
+
+.about p {
+    font-size: 1.1em;
+    padding-right: 2em;
+}
+
+#aboutme h2 {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+}
