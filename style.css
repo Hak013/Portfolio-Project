@@ -17,6 +17,7 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+    border-bottom: 0.2em solid black;
 }
 
 nav ul {
@@ -42,6 +43,10 @@ nav a {
 
 /* ------------------------------     B O D Y       ---------------------------- */
 
+#aboutme {
+    margin-bottom: 2.5em;
+}
+
 .about {
     display: flex;
     justify-content:flex-start;
@@ -61,3 +66,51 @@ nav a {
     font-size: 1.6em;
     margin-bottom: 0.2em;
 }
+
+#projects {
+    margin-bottom: 2.5em;
+}
+
+#projects h2 {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+}
+
+#projects ul {
+   list-style: circle;
+}
+
+#projects a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.2em;
+ }
+
+ #skills {
+    margin-bottom: 2.5em;
+ }
+
+ #skills h2 {
+    font-size: 1.6em;
+    margin-bottom: 0.2em;
+ }
+
+ #skills img {
+    height: 3em;
+    width: 3em;
+    margin-right: 2em;
+ }
+
+ #contact img {
+    height: 3em;
+    width: 3em;
+ }
+
+ /* ------------------------------     F O O T E R       ---------------------------- */
+
+ footer {
+    justify-content: center;
+    text-align: center;
+    margin-top: 2em;
+    border-top: 0.2em solid black;
+ }
