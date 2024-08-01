@@ -3,6 +3,7 @@
 * {
     font-size: 16px;
     box-sizing: border-box;
+    font-family: "Bebas Neue";
 }
 
 body {
@@ -221,4 +222,21 @@ nav a {
     h2 {
         text-align: center; /* Centre les titres <h2> */
     }
+}
+
+nav a:hover {
+    color: #ff6347; /* Change la couleur du texte au survol */
+    transition: color 0.3s;
+}
+
+.about img:hover {
+    transform: scale(1.1); /* Agrandit l'image au survol */
+    transition: transform 0.3s;
+}
+
+
+#contactform {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 }

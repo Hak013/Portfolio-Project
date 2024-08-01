@@ -5,6 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Page Contact</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     </head>
 
 <!-- H E A D E R -->
@@ -34,6 +37,31 @@
                 <a href="https://www.google.com/search?q=github&sca_esv=12268370a69439db&sxsrf=ADLYWILOeiKaIJPg833U7HNwiT-VqnDs5g%3A1722505356775&ei=jFirZsuCL4bMhbIPxM2pqQQ&ved=0ahUKEwjL-Ke_wNOHAxUGZkEAHcRmKkUQ4dUDCBA&uact=5&oq=github&gs_lp=Egxnd3Mtd2l6LXNlcnAiBmdpdGh1YjIQEC4YgAQY0QMYQxjHARiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIKEAAYgAQYQxiKBTIIEAAYgAQYywEyChAAGIAEGEMYigUyCBAAGIAEGMsBMggQABiABBjLATIIEAAYgAQYywEyCBAAGIAEGMsBMh8QLhiABBjRAxhDGMcBGIoFGJcFGNwEGN4EGOAE2AEDSL8QUNQFWJgPcAN4AZABAJgBbaABtQSqAQM0LjK4AQPIAQD4AQGYAgmgAvkEwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICGRAuGIAEGLADGNEDGEMYxwEYyAMYigXYAQLCAgoQIxiABBgnGIoFwgIEECMYJ8ICCxAuGIAEGNEDGMcBwgIFEAAYgATCAgUQLhiABMICChAAGIAEGAoYywHCAgcQABiABBgKmAMAiAYBkAYTugYGCAEQARgJugYGCAIQARgIugYGCAMQARgUkgcDNS40oAfCOw&sclient=gws-wiz-serp" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt=""></a>
             </div>
           </div> 
+
+          <form id="contactform">
+            <h2>Vous souhaitez me contacter ?</h2>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" name="nom" required>
+            <br>
+            <label for="prenom">Prénom</label>
+            <input id="prenom" type="text" name="prenom" required>
+            <br>
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+            <br>
+            <div>
+                <p>Autorisation de contact : </p>
+                <input id="yes" type="radio" name="autorisation_contact" value="yes" required>
+                <label for="yes">Yes</label>
+                <input id="no" type="radio" name="autorisation_contact" value="no" required>
+                <label for="no">No</label>
+            </div>
+            <br>
+            <br>
+            <button type="submit">Je te contact le boss !</button>
+          </form>
+
+          <script src="script.js"></script>
     </body>
 
 
